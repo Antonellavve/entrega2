@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Exo 2", sans-serif;
+  }
+  .overflow-auto {
+    overflow: auto;
+  }
+  
+  header {
+    background: #9effff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+  }
+  
+  .logo {
+    height: 30%;
+    width: 130px;
+  }
+  .navbar,
+  .navbar-listado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-listado {
+    gap: 30px;
+  }
+  .navbar-listado a {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+  }
+  .navbar-listado li:first-child > a {
+    color: #02cecb;
+    font-weight: 600;
+  }
+
+  main {
+    background: linear-gradient(#3ce0f6, #d81baf);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+  }
+
+  .hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: antiquewhite;
+  }
+
+  .hero-info p {
+    font-size: 20px;
+    width: 70%;
+    color:rgb(243, 243, 243);
+  }
+
+.hero-info p >span { 
+  font-size: 800;
+}
+
+.hero-info a {
+  color: rgb(10, 201, 235);
+  background-color: #dbf0ef;
+  width: 120px;
+  padding: 8px 0px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.hero-card{
+  width: 600px;
+  background: linear-gradient(#6c2cd3, #e23098);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+#info {
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#info h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(223, 204, 189);
+}
+
+#info p {
+  font-size: 16px;
+  font-weight: 300;
+  width: 70%;
+  color:rgb(248, 225, 183);
+  padding: 10px;
+}
