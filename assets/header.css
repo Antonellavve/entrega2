@@ -1,90 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Exo 2", sans-serif;
-  }
-  .overflow-auto {
-    overflow: auto;
-  }
-  
-  header {
-    background: #9effff;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 150px;
-    padding: 0px 30px;
-    position: fixed;
-    top: 0;
-  }
-  
-  .logo {
-    height: 30%;
-    width: 130px;
-  }
-  .navbar,
-  .navbar-listado {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Exo 2", sans-serif;
+}
+.overflow-auto {
+  overflow: auto;
+}
 
-  .navbar-listado {
-    gap: 30px;
-  }
-  .navbar-listado a {
-    color: rgb(10, 10, 10);
-    font-size: 20px;
-  }
-  .navbar-listado li:first-child > a {
-    color: #02cecb;
-    font-weight: 600;
-  }
+header {
+  background: #9effff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0px 30px;
+  position: fixed;
+  top: 0;
+}
 
-  main {
-    background: linear-gradient(#3ce0f6, #d81baf);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
+.logo {
+  height: 600%;
+  width: 140px;
+  padding: 10px;
+}
 
-  #hero {
-    margin-top: 65px;
-    padding: 70px 0px;
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.navbar,
+.navbar-listado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .hero-info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
-  }
+.navbar-listado {
+  gap: 30px;
+}
 
-  .hero-info h1 {
-    font-size: 48px;
-    width: 80%;
-    min-width: 500px;
-    font-weight: 800;
-    color: antiquewhite;
-  }
+.navbar-listado a {
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+}
 
-  .hero-info p {
-    font-size: 20px;
-    width: 70%;
-    color:rgb(243, 243, 243);
-  }
+.navbar-listado li:first-child > a {
+  color: #02cecb;
+  font-weight: 600;
+}
 
-.hero-info p >span { 
+main {
+  background: linear-gradient(#3ce0f6, #d81baf);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#hero {
+  margin-top: 65px;
+  padding: 70px 0px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  width: 80%;
+  min-width: 500px;
+  font-weight: 800;
+  background: linear-gradient(to top, rgb(138, 100, 215), rgb(205, 69, 92));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero-info p {
+  font-size: 20px;
+  width: 70%;
+  color: rgb(243, 243, 243);
+}
+
+.hero-info p > span {
   font-size: 800;
 }
 
@@ -98,7 +105,7 @@
   text-align: center;
 }
 
-.hero-card{
+.hero-card {
   width: 600px;
   background: linear-gradient(#6c2cd3, #e23098);
   padding: 20px;
@@ -127,8 +134,191 @@
 
 #info p {
   font-size: 16px;
-  font-weight: 300;
   width: 70%;
-  color:rgb(248, 225, 183);
-  padding: 10px;
+  color: rgb(248, 225, 183);
+  padding: 20px;
 }
+
+#ventajas {
+  padding: 70px 0px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#ventajas h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(223, 204, 189);
+}
+
+.ventajas-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ventajas-card {
+  width: 400px;
+  height: 550px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #cb7af7;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.ventajas-card img {
+  width: 350px;
+}
+
+.ventajas-card h3 {
+  font-weight: 600px;
+  font-size: 18px;
+  color: #dbf0ef;
+}
+
+.ventajas-card p {
+  font-size: 15px;
+  font-weight: 300px;
+  color: rgb(254, 255, 255);
+}
+
+#contacto {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contacto h2 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 24px;
+  font-weight: 900;
+  color: #f0dbe7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#contacto h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: antiquewhite;
+  display: flex;
+}
+
+.contact-us h4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #b38af5;
+}
+
+.footer {
+  padding: 2rem;
+  background: purple;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+  #menu-toggle,
+  .menu-label {
+    display: none;
+  }
+
+@media (max-width: 992px) {  
+  .navbar {
+    gap: 10px;
+  }
+
+  .navbar-listado {
+    position: absolute;
+    top: 90px;
+    left: 20%;
+    right: 30%;
+    width: 80%;
+    flex-direction: column;
+    background-color: #d9c9f1;
+    border: 2px solid rgb(187, 105, 105);
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 30px;
+    z-index: 2;
+    display: none;
+  }
+  .navbar-listado a {
+    font-size: 18px;
+  }
+
+  .menu-label {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+  }
+
+  .menu-label {
+    height: 30px;
+    width: 30px;
+  }
+
+  #menu-toggle:checked + .navbar-listado {
+    display: flex;
+  }
+
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .hero-info h1 {
+    width: 100%;
+    max-width: 500%;
+    min-width: unset;
+  }
+
+  .hero-info p {
+    width: 60%;
+    max-width: 600px;
+  }
+
+  .hero-card {
+    display: none;
+  }
+
+  #info h2 {
+    text-align: center;
+    max-width: 600%;
+  }
+
+  #info p {
+    align-items: center;
+    text-align: center;
+    max-width: 600%;
+  }
+
+  #ventajas h2 {
+    text-align: center;
+  }
+
+  }

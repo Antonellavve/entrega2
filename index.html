@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="./assets/header.css" />
     <title>Entrega html navbar</title>
   </head>
+
   <body>
     <header>
       <div>
         <img src="assets/imagenes/logo.png" class="logo" />
       </div>
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/imagenes/list.svg" alt="" />
+        </label>
+        <input id="menu-toggle"
+        type="checkbox" />
         <ul class="navbar-listado">
-          <img alt="HomePNG" src="./assets/imagenes/home.png" width="15" height="15" />
+          <img
+            alt="HomePNG"
+            src="./assets/imagenes/home.png"
+            width="15"
+            height="15"
+          />
           <li><a href="#">Home</a></li>
           <img
             alt="Sesion"
@@ -37,20 +48,101 @@
       <section id="hero">
         <div class="hero-info">
           <h1>Soy Antonella Velazquez y soy Psico</h1>
-          <p>Hola soy Licenciada en Psicologia y cuento con un grupo de profesionales dispuestos a <span>ayudarte</span> a afrontar tus problemas </p>
+          <p>
+            Hola soy Licenciada en Psicologia y cuento con un grupo de
+            profesionales dispuestos a <span>ayudarte</span> a afrontar tus
+            problemas
+          </p>
           <a href="#">Informate</a>
         </div>
         <div class="hero-card">
-          <img src="./assets/imagenes/psico.jpg" alt="psicologos">
+          <img src="./assets/imagenes/psico.jpg" alt="psicologos" />
         </div>
       </section>
       <section id="info">
         <div class="informacion">
           <h2>Psicologia online y presencial</h2>
-          <p>Ante los problemas, SOLUCIONES! No te preocupes si tienes dificultades de acudir a terapia presencial, podemos llevar a cabo las consultas de forma online.</p>
+          <p>Ante los problemas, SOLUCIONES! No te preocupes si tienes dificultades de acudir a terapia presencial, podemos llevar a cabo las consultas de forma online.
+          </p>
           <p>Ayuda psicologica online y presencial.</p>
         </div>
       </section>
+      <section id="ventajas">
+        <h2>Razones para elegir la terapia online</h2>
+        <div class="ventajas-card-container">
+          <div class="ventajas-card">
+            <img
+              src="./assets/imagenes/prof-formados.jpg"
+              alt="profesionales"
+            />
+            <h3>Profesionales Formados que Protegen tu Salud</h3>
+            <p>
+              Los recientes cambios globales nos han hecho hacer un mayor uso de
+              la tecnologia, y los psicologos se han ido adaptando ofreciendo
+              terapias online con la misma
+              <span>eficacia de la terapia presencial</span>. En donde tambien
+              protegemos nuestra salud mental y fisica, evitando el contagio de
+              enfermedades.
+            </p>
+          </div>
+          <div class="ventajas-card">
+            <img
+              src="./assets/imagenes/el-tiempo-es-oro.jpg"
+              alt="el-tiempo-es-oro"
+            />
+            <h3>El Tiempo es Oro</h3>
+            <p>
+              Las terapias online nos ahorran mucho tiempo, evitando
+              desplazarnos, estando en la comodidad de nuestro hogar propiciando
+              el
+              <span
+                >confort, la relajacion y favorecer la la intimidad de la
+                persona.</span
+              >
+            </p>
+          </div>
+
+          <div class="ventajas-card">
+            <img
+              src="./assets/imagenes/confidencialidad.png"
+              alt="confidencialidad"
+            />
+            <h3>Confidencialidad y Seguridad</h3>
+            <p>
+              Se cuidad mucho la
+              <span
+                >proteccion de los datos y la seguridad de la privacidad</span
+              >
+              . Ademas se envian documentos necesarios para responder todas las
+              dudas que puedan llegar a surgir.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <h2>Contactenos</h2>
+        <h3>Antonella Velazquez</h3>
+        <div class="contact-us">
+          <h4>📌Dirección: Av. Illia n° 378</h4>
+          <h4>📞Whatsapp: +5492665281151</h4>
+          <h4>📧Email: antonellavvelazquez@gmail.com</h4>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.7199745293333!2d-66.34605638487464!3d-33.299988180817216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d439509ea633fb%3A0x9536117ece8692d!2sAv.%20Illia%20378%2C%20D5700AXF%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1669139727447!5m2!1ses-419!2sar"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
+    <footer>
+      <div class="footer">
+        <span id="year">2022 </span
+        ><span> AntonellaVelazquez. All rights reserved.</span>
+      </div>
+    </footer>
   </body>
 </html>
